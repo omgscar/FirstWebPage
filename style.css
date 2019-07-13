@@ -480,7 +480,7 @@ input[type="text"],input[type="email"],textarea,select[name]{
     font-size: 25px;
 
 }
-.top a:hover{
+.about a:hover{
     transform: scale(1.2);
     transition: all 1.5s ease;
 }
