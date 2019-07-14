@@ -1,0 +1,250 @@
+@media only screen and (max-width:1040px){
+    h1{
+        font-size: 3rem;
+    }
+    *{
+        overflow-x: hidden;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .con4{
+        background-image: linear-gradient(rgba(0,0,0,0.99),rgba(0,0,0,.80)),url("../src/pexels-photo-customers.jpeg");
+        height: 134vh;
+        width: 145vh;
+    }
+    /* .offer-head{
+        width:150%;
+    } */
+    .offers{
+        /* display: inline; */
+        /* margin-left: 100px; */
+        /* margin-right: 100px; */
+        width:105%;
+    }
+    .form{
+        width:10%;
+        margin-left: 30px;
+    }
+    .iphone{
+        margin-left: 300px;
+    }
+    .t p{
+        margin-left: 30px;
+    }
+    .ot{
+        /* width:70%; */
+        /* padding-left:100px; */
+        /* width:77%; */
+        text-align: center;
+    }
+    .con-c{
+        /* width:70%; */
+        /* display: inline; */
+        width:90%;
+    }
+    .meal{
+        margin-left: 260px
+    }
+    .content{
+        height:70vh;
+    }
+    .con2{
+        display: inline;
+    }
+    .s123{
+        margin-bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width:775px){
+    *{
+        overflow-x: hidden;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .con4{
+        background-image: linear-gradient(rgba(0,0,0,0.99),rgba(0,0,0,.80)),url("../src/pexels-photo-customers.jpeg");
+        height: 130vh;
+        width: 75vh;
+    }
+    /* .offer-head{
+        width:150%;
+    } */
+    .offers{
+        display: inline;
+    }
+    .form{
+        width:10%;
+        margin-left: 30px;
+    }
+    .iphone{
+        margin-left: 180px;
+    }
+    .t p{
+        margin-left: 30px;
+    }
+    .ot{
+        /* width:70%; */
+        padding-left:80px;
+        width:77%;
+    }
+    .con{
+        /* width:70%; */
+        display: inline;
+    }
+    .content{
+        height:70vh;
+    }
+    .con2{
+        display: inline;
+    }
+    .s123{
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media only screen and (max-width:380px){
+     *{
+        overflow-x: hidden;
+    } 
+    
+    p{
+        font-size: 10px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .list a{
+        font-size: 10px;
+    }
+    .list{
+        margin-right: 10px;
+    }
+    .btn1,.btn2{
+        height:30px;
+        width:100px;
+        font-size: 15px;
+        
+    }
+    .btn1{
+        margin-left: 2px;
+    }
+
+    .con4{
+        background-image: linear-gradient(rgba(0,0,0,0.99),rgba(0,0,0,.80)),url("../src/pexels-photo-customers.jpeg");
+        height: 130vh;
+        width: 75vh;
+    }
+    /* .offer-head{
+        width:150%;
+    } */
+    .offers{
+        display: inline-block;
+    }
+    .meal{
+        
+        margin-left: 50px;
+    }
+    
+    .iphone{
+        margin-left: 20px;
+    }
+    .t p{
+        /* margin-left: 30px; */
+        font-size: 10px;
+    }
+    .t{
+        /* display:inline-block; */
+        /* margin-left: 20px; */
+        /* width:600px; */
+        margin-right: 100px;
+        padding:10px;    
+    }
+    .ot {
+        /* text-align: justify; */
+        /* width:70%; */
+        /* padding-left:80px; */
+        /* width:77%; */
+        /* margin-left: 240px; */
+        padding-left: 268px;
+    }
+    .con{
+        /* width:70%; */
+        display: inline;
+    }
+    .con-c{
+        display: inline-block;
+    }
+    
+    .con4-sub h2{
+        text-align: left;
+        
+        /* margin-left: 0px; */
+    }
+    .comments-head{
+        display: inline-block;
+    }
+    .comments{
+        margin-left: 0px;
+        margin-right: 220px;
+        /* text-align: center; */
+        width:300px;
+    }
+    .comments-head p{
+        font-size: 10px;
+    }
+    .content{
+        height:40vh;
+    }
+    .con2{
+        display: inline;
+    }
+    .s123{
+        margin-bottom: 20px;
+    }
+    
+    .about{
+        display: inline-block;
+        justify-content: center;
+
+    }
+    .social{
+        display: inline-block;
+        justify-content: center;
+    }
+    .top{
+        display: inline-block;
+    }
+    .top a{
+        font-size: 15px;
+        margin-right: 10px;
+    }
+    .social{
+        display: inline-block;
+        margin-right: 0px;
+        margin-left: 140px;
+    }
+     .fab{
+        margin-right: 0px;
+    }
+    .form{
+        margin-left: 10px;
+        width:200px;
+    }
+    .form-input{
+        display: inline;
+    }
+    .inp,.inp1,textarea,select[name].check{
+        position: relative;
+        margin-left: 0px;
+        width:150px;
+    }
+    
+}

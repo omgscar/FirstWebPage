@@ -13,7 +13,7 @@ body{
     padding: 50px;
 
 } */
-#list{
+.list{
     flex:1;
     display: flex;
     justify-content: flex-end;
@@ -26,23 +26,23 @@ h4{
     border-bottom: 2px solid #415e79;
     /* width: 150px; */
 }
-#list li{
+.list li{
     font-size: 23px;
     margin: 20px;
     text-transform: uppercase;
     /* padding: 30px;   */
 }
-#list a{
+.list a{
     color:aliceblue;
     padding:5px;
 }
-#list a:hover{
+.list a:hover{
     border-bottom: 2px solid #1abc9c;
     text-decoration: underline overline;
 }
 .content{
     position: relative;
-    background-image: linear-gradient(rgba(0,0,0,0.90),rgba(0,0,0,.50)),url("./src/back.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.90),rgba(0,0,0,.50)),url("../src/back.jpg");
    height: 100vh;
    background-size: cover;
    background-attachment:fixed;
@@ -113,12 +113,17 @@ h4{
     flex-direction: row;
     text-align: justify
 }
+.con-c{
+    display: flex;
+    flex-direction: row;
+    text-align: justify
+}
 
 .m{
     text-align-last: center;
     margin: 30px;
 }
-#t{
+.t{
     height:100px;
     width: 950px;
     margin: 20px;
@@ -145,7 +150,7 @@ h2{
     color: #415e79
 }
 
-#t p{
+.t p{
     font-size: 18px;
     
 }
@@ -234,6 +239,12 @@ section{
     display: flex;
     /* justify-content: space-between */
 }
+.con-c{
+    /* margin-top: 40px; */
+    flex:1;
+    display: flex;
+    /* justify-content: space-between */
+}
 .con-ind .fas,.fab{
     font-size: 20px;
     color: #415e79;
@@ -258,11 +269,11 @@ section{
 .con4{
     /* margin-top: 40px; */
     position: relative;
-    background-image: linear-gradient(rgba(0,0,0,0.99),rgba(0,0,0,.80)),url("./src/pexels-photo-customers.jpeg");
+    background-image: linear-gradient(rgba(0,0,0,0.99),rgba(0,0,0,.80)),url("../src/pexels-photo-customers.jpeg");
     /* width: 120px; */
 
     height: 110vh;
-   width: 225vh;
+   width: 210vh;
    background-size: cover; 
     /* background-attachment:fixed; */
     /* margin-left: 300px; */
